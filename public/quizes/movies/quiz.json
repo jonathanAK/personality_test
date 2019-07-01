@@ -1,0 +1,153 @@
+{
+  "quizName": "Movie Buff or Couch Potato ",
+  "questions": [
+    {
+      "question": "no more rhymes now i mean it",
+      "img": "1.jpg",
+      "answers": [
+        {
+          "answer": "Next",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "dont listen to Simon",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "Anybody want a peanut?",
+          "values": [
+            9,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "Pop is dead",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Where does Luca Brasi Sleep?",
+      "img": "2.jpg",
+      "answers": [
+        {
+          "answer": "At home with his wife",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "With the Fishes",
+          "values": [
+            13,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "He doesn't",
+          "values": [
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "answer": "In a coffen",
+          "values": [
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Why do they call it a royal with cheese",
+      "img": "1.jpg",
+      "answers": [
+        {
+          "answer": "Because its the king of burgers",
+          "values": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "Because its not Kosher",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "Because of the metric system",
+          "values": [
+            7,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "answer": "Stop trying to make fetch happen",
+          "values": [
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "title": "felini",
+      "img": "1.jpg",
+      "description": "wow you are so cool"
+    },
+    {
+      "title": "Casual watcher",
+      "img": "2.jpg",
+      "description": "not bad"
+    },
+    {
+      "title": "total stoner",
+      "img": "3.jpg",
+      "description": "really"
+    },
+    {
+      "title": "Couch potato",
+      "img": "4.jpg",
+      "description": "why bother"
+    }
+  ]
+}
