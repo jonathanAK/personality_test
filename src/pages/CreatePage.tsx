@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Question from '../components/Question';
+// import Header from '../components/Header';
+// import Question from '../components/Question';
 
 interface IProps {
 
@@ -9,8 +9,8 @@ interface IProps {
 const QuizPage: React.FC<IProps> = () => {
   return (
     <div>
-      <Header />
-      <Question />
+      {/*<Header />*/}
+      {/*<Question />*/}
     </div>
   );
 };

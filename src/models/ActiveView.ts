@@ -1,5 +1,7 @@
-export enum ActiveViewEmum {
+export enum ActiveViewEnum {
   start,
   quiz,
-  summary
-}
+  summary,
+  create
+};
+export default  ActiveViewEnum;

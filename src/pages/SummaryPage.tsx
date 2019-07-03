@@ -1,43 +1,44 @@
 import React from 'react';
 import {Dispatch} from "redux";
 import {connect} from "react-redux";
+import {Link, Redirect} from "react-router-dom";
 
 interface IProps {
-    correct: number;
-    total: number;
-    onStartAgain: () => void;
+    result: any
+    setFinishedQuiz: () => void
 }
 
-const SummaryPage: React.FC<IProps> = ({correct, total, onStartAgain}) => {
-    const allCorrectMessage = ['Well Done', 'Good Job', 'Great Work'];
-
-    function getRandomAllCorrectMessage(): string {
-        return allCorrectMessage[Math.floor(Math.random() * allCorrectMessage.length)];
+const SummaryPage: React.FC<IProps> = ({result,setFinishedQuiz}) => {
+    React.useEffect(() => {
+        setFinishedQuiz();
+    }, []);
+    if(!result){
+        return <Redirect to="/"/>
     }
-
     return (
         <div>
-            <h1>Summary Page</h1>
-            <p>You've answer correctly on {correct} of {total} questions. </p>
-            {
-                (correct === total) &&
-                <p>{getRandomAllCorrectMessage()}!</p>
-            }
-            <button onClick={onStartAgain}>Try again</button>
+            <h1>{result.title}</h1>
+            <p>{result.description} </p>
+
+            <Link to={`/quiz/`}><h4>Go again</h4></Link>
+            <Link to={`/`}><h4>Checkout some others</h4></Link>
         </div>
     );
 };
 
+
+
 const mapStateToProps = (state: any) => {
-    return {
-        correct: state.scores.correctAnswers,
-        total: state.questions.length
+    if(!state.data.quiz){
+        return {result:null};
     }
+    return {
+        result:state.data.quiz.results[state.scores.results.indexOf(Math.max(...state.scores.results))]
+    };
 };
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
-    onStartAgain: () => {
-        dispatch({type: 'RESET_SCORE'});
+    setFinishedQuiz: () => {
         dispatch({type: 'RESET_VIEW'});
     }
 });
