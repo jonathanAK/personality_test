@@ -1,0 +1,196 @@
+{
+  "quizName": "Movie Buff or Couch Potato ",
+  "img":  "firefly.jpg",
+  "questions": [
+    {
+      "question": "Do the math",
+      "img": "math.jpg",
+      "answers": [
+        {
+          "answer": "Ten percent of nothin' is, nothin' into nothin', carry the nothin'",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "We are just too pretty for God to let us die.",
+          "values": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "The human body can be drained of blood in 8.6 seconds given adequate vacuuming systems",
+          "values": [
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "answer": "It's been a big day, what with the abduction, and all.",
+          "values": [
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Love is in the air",
+      "img": "love.jpg",
+      "answers": [
+        {
+          "answer": "Love Keeps Her In The Air When She Ought To Fall Down",
+          "values": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": " physical appearance doesn't matter so terribly, you look for a compatibility of spirit",
+          "values": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        {
+          "answer": "I call her Vera",
+          "values": [
+            0,
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "Ah, the pitter patter of tiny feet and combat boots",
+          "values": [
+            2,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "question": "It's all about family",
+      "img": "family.jpg",
+      "answers": [
+        {
+          "answer": "Well my sister�s a ship. We had a complicated childhood.",
+          "values": [
+            0,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "answer": "Were I unwed I'd take yopu in a manly fasion",
+          "values": [
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "answer": "Sir, I'd like you to take the helm, please. I need this man to tear all my clothes off",
+          "values": [
+            0,
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "answer": "You turn on any of my crew you turn on me",
+          "values": [
+            0,
+            3,
+            3,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "question": "The Fasion Police",
+      "img": "fasion.jpg",
+      "answers": [
+        {
+          "answer": "A man walks down the street in that hat, people know he's not afraid of anything.",
+          "values": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "answer": "I swear by my pretty floral bonnet, I will end you.",
+          "values": [
+            3,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "How's it sit? pretty cunning don't you think?",
+          "values": [
+            0,
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "These girls have the most beautiful dresses. And so do I - How 'bout that.",
+          "values": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "title": "Mal",
+      "img": "mal.jpg",
+      "description": "Well, my time of not taking you seriously is coming to a middle."
+    },
+    {
+      "title": "Jayne",
+      "img": "jane.jpg",
+      "description": "You know what the chain of command is? It�s the chain I go get and beat you with �til you understand who�s in ruttin� command here."
+    },
+    {
+      "title": "Simon",
+      "img": "simon.jpg",
+      "description": "My god. You�re like a trained ape. Without the training."
+    },
+    {
+      "title": "Wash",
+      "img": "wash.jpg",
+      "description": "Ah! Curse your sudden but inevitable betrayal!"
+    }
+  ]
+}
