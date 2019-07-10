@@ -1,0 +1,154 @@
+{
+  "quizName": "What fruit are you",
+  "img":  "fruit.jpg",
+  "questions": [
+    {
+      "question": "What is your favorite color",
+      "img": "color.jpg",
+      "answers": [
+        {
+          "answer": "red",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "answer": "green",
+          "values": [
+            4,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "answer": "Yellow",
+          "values": [
+            3,
+            4,
+            1,
+            2
+          ]
+        },
+        {
+          "answer": "Orange",
+          "values": [
+            2,
+            3,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "question": "How big are you",
+      "img": "size.jpg",
+      "answers": [
+        {
+          "answer": "big",
+          "values": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "small",
+          "values": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        {
+          "answer": "Huge",
+          "values": [
+            0,
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "Tiny",
+          "values": [
+            2,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What is you favorite Season",
+      "img": "season.jpg",
+      "answers": [
+        {
+          "answer": "summer",
+          "values": [
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "answer": "Fall",
+          "values": [
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "answer": "Winter",
+          "values": [
+            0,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "answer": "Spring",
+          "values": [
+            0,
+            3,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "title": "Banana",
+      "img": "banana.jpg",
+      "description": "BED - banana equivalent dose, is a common way to measure radio activity"
+    },
+    {
+      "title": "Apple",
+      "img": "apple.jpg",
+      "description": "You are not compatibly with anything else"
+    },
+    {
+      "title": "kumquat",
+      "img": "kumquat.jpg",
+      "description": "orangeYou are a tiny "
+    },
+    {
+      "title": "carambola",
+      "img": "carambola.jpg",
+      "description": "You are shiny like a star"
+    }
+  ]
+}

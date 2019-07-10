@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "610b4d651791fb43f482de6c65da1f38",
+    "revision": "6bb1258700ff4362c5e6885a969df4fe",
     "url": "/personality_test/index.html"
   },
   {
-    "revision": "9edd142fe52959950b05",
+    "revision": "4ad4937dd3d1bb03ad3a",
     "url": "/personality_test/static/css/main.b010cc24.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personality_test/static/js/2.8a6ee972.chunk.js"
   },
   {
-    "revision": "9edd142fe52959950b05",
-    "url": "/personality_test/static/js/main.d1e287be.chunk.js"
+    "revision": "4ad4937dd3d1bb03ad3a",
+    "url": "/personality_test/static/js/main.f4cee180.chunk.js"
   },
   {
     "revision": "51b1d0a2892fa61b0728",
