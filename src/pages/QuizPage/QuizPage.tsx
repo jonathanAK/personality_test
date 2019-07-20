@@ -1,12 +1,14 @@
 import React from 'react';
 import {connect} from "react-redux";
-import Question from "../components/Question";
-import LoadingSpinner from './LoadingSpiner'
+import Question from "../../components/Quetsion/Question";
+import LoadingSpinner from '../../components/LoadingSpiner/LoadingSpiner'
 import {Dispatch} from "redux";
 import {Redirect, RouteComponentProps} from 'react-router';
-import {getQuiz} from "../store/personality.api.middleware";
+import {getQuiz} from "../../store/personality.api.middleware";
 import LinearProgress from '@material-ui/core/LinearProgress';
 import { lighten, makeStyles, withStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import {personalityResetScores} from '../../store/scoreReducer';
 
 
 interface IProps {
@@ -25,11 +27,13 @@ type RParams = {
 
 const QuizPage: React.FC<IProps & RouteComponentProps<RParams>> = ({match, activeQuiz, startingNewQuiz, resetScores, getQuizData, failedToLoadQuiz,quiz,currentQuestion}) => {
     React.useEffect(() => {
-        if (startingNewQuiz && match.params.permalink) {
-            getQuizData(match.params.permalink);
+        if (startingNewQuiz) {
+            if(match.params.permalink){
+                getQuizData(match.params.permalink);
+            }
             resetScores();
         }
-    }, []);
+    }, [getQuizData,match.params.permalink,startingNewQuiz,resetScores]);
 
     const useStyles = makeStyles(theme => ({
         root: {
@@ -56,17 +60,19 @@ const QuizPage: React.FC<IProps & RouteComponentProps<RParams>> = ({match, activ
         return <Redirect to="/"/>
     }
     if (activeQuiz) {
-        const quizProgress = currentQuestion/quiz.questions.length*100
+        const quizProgress = currentQuestion/quiz.questions.length*100;
         return (
             <div>
                 <h1>{activeQuiz.quizName}</h1>
-                <Question/>
                 <BorderLinearProgress
                     className={classes.margin}
                     variant="determinate"
                     color="secondary"
                     value={quizProgress}
                 />
+                <Card>
+                <Question/>
+                </Card>
             </div>
         );
     }
@@ -86,7 +92,7 @@ const mapStateToProps = (state: any) => {
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
     resetScores: () => {
-        dispatch({type: 'RESET_SCORES'});
+        dispatch(personalityResetScores());
     },
     getQuizData: (permalink: string) => dispatch(getQuiz(permalink))
 });

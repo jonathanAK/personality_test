@@ -1,0 +1,15 @@
+.Summary-topCard{
+    margin: 10px 15px;
+}
+
+.Summary-bottomCard{
+    margin: 10px 15px;
+}
+
+.Summary-buttons{
+    width:100%;
+}
+
+.Summary-buttons h4 {
+    margin: 0px;
+}

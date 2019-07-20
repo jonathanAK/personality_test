@@ -1,5 +1,5 @@
 {
-  "quizName": "Movie Buff or Couch Potato ",
+  "quizName": "Is your coat brown?",
   "img":  "firefly.jpg",
   "questions": [
     {
@@ -12,8 +12,7 @@
             1,
             2,
             3,
-            4,
-            0
+            4
           ]
         },
         {
@@ -22,8 +21,7 @@
             3,
             0,
             0,
-            0,
-            1
+            0
           ]
         },
         {
@@ -32,8 +30,7 @@
             0,
             0,
             2,
-            0,
-            2
+            0
           ]
         },
         {
@@ -42,8 +39,7 @@
             0,
             0,
             2,
-            0,
-            1
+            0
           ]
         }
       ]
@@ -55,11 +51,10 @@
         {
           "answer": "Love Keeps Her In The Air When She Ought To Fall Down",
           "values": [
+            4,
             0,
             0,
-            0,
-            0,
-            3
+            0
           ]
         },
         {
@@ -67,7 +62,6 @@
           "values": [
             0,
             0,
-            2,
             2,
             2
           ]
@@ -78,7 +72,6 @@
             0,
             3,
             0,
-            0,
             0
           ]
         },
@@ -88,8 +81,7 @@
             2,
             0,
             0,
-            1,
-            0
+            1
           ]
         }
       ]
@@ -99,13 +91,12 @@
       "img": "family.jpg",
       "answers": [
         {
-          "answer": "Well my sister’s a ship. We had a complicated childhood.",
+          "answer": "Well my sisterï¿½s a ship. We had a complicated childhood.",
           "values": [
             0,
             2,
             2,
-            1,
-            0
+            1
           ]
         },
         {
@@ -114,8 +105,7 @@
             0,
             0,
             0,
-            3,
-            0
+            3
           ]
         },
         {
@@ -124,8 +114,7 @@
             0,
             0,
             0,
-            4,
-            0
+            4
           ]
         },
         {
@@ -134,8 +123,7 @@
             0,
             3,
             3,
-            1,
-            0
+            1
           ]
         }
       ]
@@ -150,8 +138,7 @@
             0,
             1,
             0,
-            3,
-            0
+            1
           ]
         },
         {
@@ -159,7 +146,6 @@
           "values": [
             3,
             1,
-            0,
             0,
             0
           ]
@@ -170,7 +156,6 @@
             0,
             3,
             0,
-            0,
             0
           ]
         },
@@ -180,8 +165,7 @@
             0,
             0,
             0,
-            0,
-            5
+            1
           ]
         }
       ]
@@ -195,23 +179,18 @@
     },
     {
       "title": "Jayne",
-      "img": "jane.jpg",
-      "description": "You know what the chain of command is? It’s the chain I go get and beat you with ’til you understand who’s in ruttin’ command here."
+      "img": "jayne.jpg",
+      "description": "You know what the chain of command is? Itï¿½s the chain I go get and beat you with ï¿½til you understand whoï¿½s in ruttinï¿½ command here."
     },
     {
       "title": "Simon",
       "img": "simon.jpg",
-      "description": "My god. You’re like a trained ape. Without the training."
+      "description": "My god. Youï¿½re like a trained ape. Without the training."
     },
     {
       "title": "Wash",
       "img": "wash.jpg",
       "description": "Ah! Curse your sudden but inevitable betrayal!"
-    },
-    {
-      "title": "Kaylee",
-      "img": "kaylee.jpg",
-      "description": "Going on a year now, I ain't had nothin twixt my nethers... weren't run on batteries"
     }
   ]
 }

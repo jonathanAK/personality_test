@@ -1,0 +1,23 @@
+.Question {
+    text-align: center;
+}
+
+.Question-questionImg-Card{
+    margin: 10px 15px;
+}
+
+.Question-answers-Card{
+    margin: 10px 15px;
+}
+
+.Question-question{
+    margin: 3px;
+}
+
+.Question-img{
+    width:80%;
+}
+
+.Question-answer{
+    width: 100%;
+}

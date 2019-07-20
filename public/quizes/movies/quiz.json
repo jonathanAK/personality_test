@@ -1,5 +1,6 @@
 {
   "quizName": "Movie Buff or Couch Potato ",
+  "img":  "1.jpg",
   "questions": [
     {
       "question": "no more rhymes now i mean it",
@@ -26,10 +27,10 @@
         {
           "answer": "Anybody want a peanut?",
           "values": [
-            9,
+            6,
+            4,
             2,
-            3,
-            4
+            0
           ]
         },
         {
@@ -52,17 +53,17 @@
           "values": [
             1,
             2,
-            3,
-            4
+            2,
+            1
           ]
         },
         {
           "answer": "With the Fishes",
           "values": [
-            13,
+            6,
+            4,
             2,
-            3,
-            4
+            0
           ]
         },
         {
@@ -78,9 +79,9 @@
           "answer": "In a coffen",
           "values": [
             0,
-            2,
             3,
-            4
+            3,
+            1
           ]
         }
       ]
@@ -101,28 +102,28 @@
         {
           "answer": "Because its not Kosher",
           "values": [
-            1,
+            0,
             2,
-            3,
-            4
+            2,
+            2
           ]
         },
         {
           "answer": "Because of the metric system",
           "values": [
-            7,
-            0,
+            4,
+            3,
             2,
-            1
+            0
           ]
         },
         {
           "answer": "Stop trying to make fetch happen",
           "values": [
             0,
+            5,
             2,
-            3,
-            4
+            1
           ]
         }
       ]
@@ -130,13 +131,13 @@
   ],
   "results": [
     {
-      "title": "felini",
-      "img": "1.jpg",
+      "title": "Fellini",
+      "img": "fellini.jpg",
       "description": "wow you are so cool"
     },
     {
       "title": "Casual watcher",
-      "img": "2.jpg",
+      "img": "5.jpg",
       "description": "not bad"
     },
     {

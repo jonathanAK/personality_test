@@ -1,22 +1,17 @@
 [
   {
-    "name": "cats",
-    "permalink": "cats"
+    "name": "Is your coat brown?",
+    "permalink": "firefly",
+    "img": "firefly.jpg"
   },
   {
-    "name": "dogs",
-    "permalink": "dogs"
-  },
-  {
-    "name": "which super hero are you?",
-    "permalink": "whichsuperheroareyou"
-  },
-  {
-    "name": "which Bibi are you?",
-    "permalink": "cats"
+    "name": "fruit",
+    "permalink": "fruit",
+    "img": "fruit.jpg"
   },
   {
     "name": "Movie buff or couch potato",
-    "permalink": "movies"
+    "permalink": "movies",
+    "img": "4.jpg"
   }
 ]

@@ -1,5 +1,6 @@
 import {Dispatch, Middleware, MiddlewareAPI} from 'redux';
 import {personalitySetList,personalitySetQuiz} from './dataReducer';
+import {personalitySetQuestionOrder,personalityFailedLoadingQuiz} from './pageViewReducer';
 import {randPrime} from '../scripts/math';
 
 const GET_LIST = '[PERSONALITY] GET_LIST';
@@ -9,20 +10,20 @@ export const getList = () =>{
     return {
         type: GET_LIST
     }
-}
+};
 
 export const getQuiz = (permalink:string) =>{
     return {
         type: GET_QUIZ,
         payload: permalink
     }
-}
+};
 
 const getListFlow:Middleware = ({dispatch}: MiddlewareAPI) => (next: Dispatch) => action => {
     if (action.type === GET_LIST) {
         fetch(process.env.PUBLIC_URL + '/quizList.json')
             .then(res => res.json())
-            .then((data: Array<any>) => {
+            .then((data: [any]) => {
                 dispatch(personalitySetList(data));
             })
             .catch((e) => {
@@ -38,10 +39,10 @@ const getQuizFlow:Middleware = ({dispatch}: MiddlewareAPI) => (next: Dispatch) =
             .then(res => res.json())
             .then((data: any) => {
                 dispatch(personalitySetQuiz(data));
-                dispatch({type:'SET_QUESTION_ORDER',payload:randPrime(data.questions.length)});
+                dispatch(personalitySetQuestionOrder(randPrime(data.questions.length)));
             })
             .catch((e) => {
-                dispatch({type:'FAILED_LOADING_QUIZ'});
+                dispatch(personalityFailedLoadingQuiz());
             })
     }
     return next(action);
